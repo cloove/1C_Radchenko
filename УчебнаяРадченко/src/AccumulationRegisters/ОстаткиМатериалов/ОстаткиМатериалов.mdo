@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77e3d825-1dbe-4f3f-9574-d1a9c9c9e4bd">
+  <producedTypes>
+    <selectionType typeId="105f5475-c63a-4573-8e7c-f92f8d29c4c4" valueTypeId="96918efe-5080-4d93-8487-178bb34d9c75"/>
+    <listType typeId="12359b7d-f647-4633-9434-a15e40422b7a" valueTypeId="54a85ecd-f090-451f-b683-865b7895b642"/>
+    <managerType typeId="f78ccc19-b16b-4c69-ba20-8971a63e3410" valueTypeId="5536a327-6cce-4ff6-a508-c08dcb235a48"/>
+    <recordSetType typeId="43a10331-b35e-49cc-9976-dc1321392a29" valueTypeId="20b43d5f-5f49-4dd0-bf77-d36ce211f051"/>
+    <recordKeyType typeId="25026762-25cf-4f51-b903-35e3ef9c4a91" valueTypeId="f418f328-d23c-4866-bc3e-326aa25b6c1d"/>
+    <recordType typeId="5c582d4e-5973-4f3a-a9e2-bc69932958eb" valueTypeId="7b9b53f0-4b2a-4784-9f1b-eeb429869f02"/>
+  </producedTypes>
+  <name>ОстаткиМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Движения по регистру Остатки материалов</value>
+  </extendedListPresentation>
+  <resources uuid="a112b66d-0cb3-4ee4-ad8d-c844bbaf354c">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="c12ae99d-f4ba-45e0-9993-bf606adedeaf">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4eae732b-8fc4-44eb-9653-d6d44b42b56c">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
