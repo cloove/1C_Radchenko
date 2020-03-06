@@ -8,16 +8,24 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Document.ПриходнаяНакладная.StandardCommand.Create</command>
-      <visible>
-        <common>true</common>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Catalog.Склады.StandardCommand.Create</command>
       <visible>
         <common>true</common>
       </visible>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
   </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Номенклатура.StandardCommand.OpenList</commands>
+      <commands>Catalog.Склады.StandardCommand.OpenList</commands>
+      <commands>AccumulationRegister.ОстаткиМатериалов.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
 </cmi:CommandInterface>
