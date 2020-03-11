@@ -333,6 +333,10 @@
           <segments>Объект.ПереченьНоменклатуры.Номенклатура</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПереченьНоменклатурыНоменклатураПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ПереченьНоменклатурыНоменклатураРасширеннаяПодсказка</name>
         <id>34</id>

@@ -177,4 +177,17 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="1a4f0b8e-24db-4c4b-91b2-1cd4cabeb58d">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="d16d92c7-c302-4b79-b19e-f5c9b4b85699">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ОказаниеУслуги</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
 </mdclass:Document>

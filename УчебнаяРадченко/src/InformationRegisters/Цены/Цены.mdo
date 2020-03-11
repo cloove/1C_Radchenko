@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ba6b00c-2890-4e4a-be05-9f13e5f3f755">
+  <producedTypes>
+    <selectionType typeId="d6e42290-0d0b-4428-a829-5986241eb24c" valueTypeId="db02d0e5-6780-4a9b-bfcc-022fea5b5c70"/>
+    <listType typeId="378974aa-fb78-496f-8a29-4e86f16f2482" valueTypeId="33576cde-7b4c-4b61-a1af-853e3e4cb14c"/>
+    <managerType typeId="a4d633e3-b717-4fbc-8517-42d3b8c437a4" valueTypeId="33b8094a-8dbf-4b4f-b0ec-8ce72706e194"/>
+    <recordSetType typeId="c3bc3346-bcde-44e7-adaa-91ac73417349" valueTypeId="ef772401-f411-4ce7-9a8a-1c3ccaf6fbe7"/>
+    <recordKeyType typeId="f952cbcc-746f-4bc7-b219-9a754eec4d33" valueTypeId="d18fc75d-7feb-4516-90d4-747d4b997a9c"/>
+    <recordType typeId="c769b6b9-1056-488f-bdcf-dda43dceb4c7" valueTypeId="97ac9201-5c22-4dff-858e-10f8cbc75c93"/>
+    <recordManagerType typeId="684dc5cf-8f99-4750-9fcd-8605e81edc30" valueTypeId="8e154eac-7937-4845-be32-abd2133eabeb"/>
+  </producedTypes>
+  <name>Цены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Цена</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Цены на номенклатуру</value>
+  </listPresentation>
+  <resources uuid="6fe19985-bdf0-49f0-ba1e-15f73e744859">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="8a36a136-b5bf-42a8-9628-e89c692b7a66">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
