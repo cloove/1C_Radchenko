@@ -39,6 +39,7 @@
   <commonPictures>CommonPicture.ОказаниеУслуг</commonPictures>
   <commonPictures>CommonPicture.РасчетЗарплаты</commonPictures>
   <commonPictures>CommonPicture.Предприятие</commonPictures>
+  <commonPictures>CommonPicture.WebServices</commonPictures>
   <commonModules>CommonModule.РаботаСДокументами</commonModules>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <catalogs>Catalog.Клиенты</catalogs>
@@ -47,7 +48,9 @@
   <catalogs>Catalog.Склады</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.ОказаниеУслуги</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.Материалы</reports>
+  <dataProcessors>DataProcessor.ПолучитьДанныеПоGLN</dataProcessors>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
 </mdclass:Configuration>

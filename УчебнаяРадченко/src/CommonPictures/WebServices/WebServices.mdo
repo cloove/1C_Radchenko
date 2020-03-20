@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a608dc5-d72c-40f9-bc88-5104244af6ff">
+  <name>WebServices</name>
+  <synonym>
+    <key>ru</key>
+    <value>Web services</value>
+  </synonym>
+</mdclass:CommonPicture>

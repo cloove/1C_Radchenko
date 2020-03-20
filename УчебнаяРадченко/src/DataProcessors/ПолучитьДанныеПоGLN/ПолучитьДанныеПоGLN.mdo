@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2296a41-ed9a-4357-8e66-2e6f6a62cf3d">
+  <producedTypes>
+    <objectType typeId="384ce400-db9c-4ed0-b1bb-133c51b02d95" valueTypeId="a085f976-fb3f-4a76-bb23-b53e3761f9e6"/>
+    <managerType typeId="ade5dd4a-1c69-44c2-af54-c4cfcfe34f32" valueTypeId="e1d81aa5-e48c-4c99-8353-89a63d7c7ed5"/>
+  </producedTypes>
+  <name>ПолучитьДанныеПоGLN</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить данные по GLN</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолучитьДанныеПоGLN.Form.Форма</defaultForm>
+  <forms uuid="835f8d85-7937-43a3-8d43-edcb0bbe0e19">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e92e5f6c-760e-4a0e-b48b-09eed73d0d12">
+    <name>ФормаЗаполненияКарточкиНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заполнения карточки номенклатуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ba6b00c-2890-4e4a-be05-9f13e5f3f755">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ba6b00c-2890-4e4a-be05-9f13e5f3f755">
   <producedTypes>
     <selectionType typeId="d6e42290-0d0b-4428-a829-5986241eb24c" valueTypeId="db02d0e5-6780-4a9b-bfcc-022fea5b5c70"/>
     <listType typeId="378974aa-fb78-496f-8a29-4e86f16f2482" valueTypeId="33576cde-7b4c-4b61-a1af-853e3e4cb14c"/>
@@ -40,8 +40,11 @@
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="8a36a136-b5bf-42a8-9628-e89c692b7a66">
     <name>Номенклатура</name>
@@ -52,9 +55,12 @@
     <type>
       <types>CatalogRef.Номенклатура</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
