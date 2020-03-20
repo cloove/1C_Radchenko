@@ -649,8 +649,11 @@
         <commandParameter xsi:type="form:DataPath">
           <segments>Объект.Ref</segments>
         </commandParameter>
+<<<<<<< HEAD
         <group>FormNavigationPanelGoTo</group>
         <index>0</index>
+=======
+>>>>>>> branch 'master' of https://github.com/cloove/1C_Radchenko
         <userVisible>
           <common>true</common>
         </userVisible>
