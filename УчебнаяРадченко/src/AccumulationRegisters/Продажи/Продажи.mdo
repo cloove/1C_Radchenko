@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8965285f-7896-4875-8b3b-328f962f7f17">
+  <producedTypes>
+    <selectionType typeId="500bc14c-0789-4450-90dc-8ed294ba7bc7" valueTypeId="1f1f9607-87ad-4fb7-a8b6-b5901f690fd4"/>
+    <listType typeId="35ccf235-3e29-4b58-b391-332ac4631a73" valueTypeId="48cc8f38-2c12-438d-bdb0-bd9407b82104"/>
+    <managerType typeId="4d7cd1b6-841d-4e5b-b4f0-780b1c8aa35d" valueTypeId="412fdf18-d717-4d4b-bd67-cf0e1d308e77"/>
+    <recordSetType typeId="740f53f2-0ae9-48ee-8b24-df6af9fe4fc9" valueTypeId="f9d882cb-68aa-454e-894f-fab0105ec15a"/>
+    <recordKeyType typeId="a2466eae-bff4-4399-8794-47aecede7fd5" valueTypeId="7335944d-df8b-44f0-9a27-78d52f2092af"/>
+    <recordType typeId="aec744a0-8436-4561-a75d-7c597f42d249" valueTypeId="e602f0bd-2681-4b7c-a492-9195c4e2f856"/>
+  </producedTypes>
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Движения</value>
+  </extendedListPresentation>
+  <resources uuid="d9680e49-63d9-404e-a945-4f3548dd4f39">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="f73ffe9b-1c43-469e-b01a-eb6e6a68e36a">
+    <name>Выручка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выручка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="9b811974-8031-4c0e-8344-638c71c64e5f">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="93719a27-4cf9-442a-afb7-26522e3c0698">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="f26ede06-d921-4588-b593-a5808c24f0ff">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="6d0336ce-bc7b-4edc-a826-7201d2bc228b">
+    <name>Мастер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мастер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

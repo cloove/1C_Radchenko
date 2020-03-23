@@ -6,6 +6,11 @@
     <value>Оказание услуг</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ОказаниеУслуг</picture>
@@ -20,4 +25,5 @@
   <content>Report.Материалы</content>
   <content>InformationRegister.Цены</content>
   <content>AccumulationRegister.СтоимостьМатериалов</content>
+  <content>AccumulationRegister.Продажи</content>
 </mdclass:Subsystem>
