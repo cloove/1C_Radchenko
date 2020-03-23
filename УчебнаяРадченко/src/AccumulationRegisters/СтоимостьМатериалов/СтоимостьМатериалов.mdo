@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b0661e5-f12c-46d9-a36d-34a69d01f2f2">
+  <producedTypes>
+    <selectionType typeId="3a4039e9-0539-45ec-9044-90493e5a88b0" valueTypeId="2bf81dd4-3a9d-4953-9f16-b07cfa929a6a"/>
+    <listType typeId="5691d96f-b6b1-4960-aa6d-cda2612f2a73" valueTypeId="fa0fc561-2b62-4930-b76f-332486c38ee2"/>
+    <managerType typeId="2d11c24e-23bb-4a55-bf0d-df49267ad585" valueTypeId="4370aa5e-897e-475d-8271-ea167284e606"/>
+    <recordSetType typeId="20ae1b0d-d36a-43a5-bb65-02f0a1957418" valueTypeId="1d33c09e-c874-4ebe-9eda-a1a6df39f737"/>
+    <recordKeyType typeId="45d8081f-152f-4d99-b2a6-31e55b990973" valueTypeId="d114038b-432a-4c72-9ef6-32b42bc278db"/>
+    <recordType typeId="7ce34f22-b855-4c5f-b00d-7257c9a00f15" valueTypeId="36fa71d9-a6da-47e2-bd87-141e510557d3"/>
+  </producedTypes>
+  <name>СтоимостьМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Движения по регистру Стоимость материалов</value>
+  </extendedListPresentation>
+  <resources uuid="15530a69-d369-48cf-96e4-eb870649d078">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="c4a1ae8f-b6ca-4082-bea5-ac855c26a341">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
